@@ -12,4 +12,9 @@ def input_sequence():
     return input(" Enter your DNA sequence: ").upper() #makes sure that all the bases are upper letters
 
 def get_complementary(sequence):
-    complement = {"A":"T", "C":"G", "G":"C", "T":"A"}
+    #we create a dictionary that maps each DNA base with its complementary base 
+    complement = {"A":"T", "C":"G", "G":"C", "T":"A"} 
+    # return "".join(complement[base] for base in sequence)
+
+if __name__ == "__main__":
+    main()
