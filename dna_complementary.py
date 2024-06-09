@@ -4,7 +4,6 @@ def main():
     """ sequence = input_sequence() #ask the user for the DNA sequence (ACGT) 
 
     complementary_seq= get_complementary(sequence) #write a function that finds the complement for each base
-    
 
     """
     
@@ -14,7 +13,11 @@ def input_sequence():
 def get_complementary(sequence):
     #we create a dictionary that maps each DNA base with its complementary base 
     complement = {"A":"T", "C":"G", "G":"C", "T":"A"} 
-    # return "".join(complement[base] for base in sequence)
+
+    #We need that for each base in the input sequence, looks for its complementary base in the dictionary 'complement'
+    #the join method bonds/concatenates "" all the complementary bases in a single string
+    return "".join(complement[base] for base in sequence) 
+    #complement is the dictionary & [base] is the key value
 
 if __name__ == "__main__":
     main()
