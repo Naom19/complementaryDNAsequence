@@ -12,7 +12,7 @@ def main():
 
     
 def input_sequence():
-    return input(" Enter your DNA sequence: ").upper() #makes sure that all the bases are upper letters
+    return input(" Enter your DNA sequence in a single line: ").upper() #makes sure that all the bases are upper letters
 
 def get_complementary(sequence):
     #we create a dictionary that maps each DNA base with its complementary base 
