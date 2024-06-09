@@ -1,11 +1,15 @@
 
 #we define the main function and logic
 def main():     
-    """ sequence = input_sequence() #ask the user for the DNA sequence (ACGT) 
+    sequence = input_sequence() #ask the user for the DNA sequence (ACGT) 
 
     complementary_seq= get_complementary(sequence) #write a function that finds the complement for each base
+        
+    print(f"original sequence: {sequence}") #prints the original sequence for reference to the user
 
-    """
+    print(f"your complementary sequence is: {complementary_seq}") #prints the complementary DNA sequence!
+     
+
     
 def input_sequence():
     return input(" Enter your DNA sequence: ").upper() #makes sure that all the bases are upper letters
