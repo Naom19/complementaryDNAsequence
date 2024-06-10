@@ -1,17 +1,19 @@
 # complementaryDNAsequence
 
-This program helps you find the complementary sequence by entering a DNA sequence.
+This program allows you to find the complementary sequence by entering a DNA sequence.
 This tool is useful for students and anyone interested in molecular biology and bioinformatics.
 
 ## Table of contents
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Features](#features)
-
 
 
 ## Installation 
+
+### Prerequisites
+- Python installed: https://www.python.org/downloads/ 
+- Git installed: https://git-scm.com/downloads 
 
 1. Clone the repository 
 2. Use your favorite code editor or the terminal to navigate to the project directory dna_complementary.py 
