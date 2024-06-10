@@ -11,7 +11,7 @@ This tool is useful for students and anyone interested in molecular biology and 
 ### Prerequisites
 - Python installed: https://www.python.org/downloads/ 
 - Git installed: https://git-scm.com/downloads 
-If you got it, then:
+- If you got it, then:
 
 
 ## Installation 
