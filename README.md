@@ -8,12 +8,13 @@ This tool is useful for students and anyone interested in molecular biology and 
 - [Installation](#installation)
 - [Usage](#usage)
 
-
-## Installation 
-
 ### Prerequisites
 - Python installed: https://www.python.org/downloads/ 
 - Git installed: https://git-scm.com/downloads 
+If you got it, then:
+
+
+## Installation 
 
 1. Clone the repository 
 2. Use your favorite code editor or the terminal to navigate to the project directory dna_complementary.py 
